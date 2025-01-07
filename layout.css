@@ -5,13 +5,14 @@
 header{
     height: 50px;
     text-align: center;
-    background-color: olivedrab;
+    background-color: #2D2D2D;
+    color: white;
     padding-top: 60px;
 }
 section{
     display: grid;
     grid-template-columns: 25% 1fr;
-    background-color: rgb(172, 255, 47);
+    /* background-color: wheat; */
     height: 100%;
     }
 aside{
@@ -19,9 +20,15 @@ aside{
     box-sizing: border-box;
     font-size: 17px;
 }
+li >a {
+    /* text-decoration: none; */
+    line-height: 1.5;
+    color: black;
+}
     
     main{
-        background-color: olive;
+        background-color: #121212;
+        color: white;
         height: 100%;
         padding: 20px;
         box-sizing: border-box;
@@ -32,6 +39,7 @@ aside{
     }
     footer{
         text-align: center;
-        background-color: rgba(128, 128, 0, 0.829);
+        background-color:#2D2D2D;
+        color: white;
         padding: 20px;
     }
